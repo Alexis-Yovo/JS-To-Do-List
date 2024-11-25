@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Todolist</title>
+    <link rel="stylesheet" href="../../ToDo List/css/style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Todolist</h1>
+    <div id="notification" class="notification"></div>
+    <div id="feedback" class="feedback"></div>
+     <div class="col">
+                <section id="task-list"></section>
+                <section id="task-form">
+                    <br>
+                    <form>
+                        <input type="text" id="task-title" placeholder="Nom de la tâche" required/>
+                        <select id="task-priority">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </form>
+                    <br>
+                    <button id="add-task" class="add-task">Ajouter</button>
+                    <button id="delete-tasks" class="delete-tasks">Supprimer les tâches sélectionnées</button>
+                </section>
+                </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>
